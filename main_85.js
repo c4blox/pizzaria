@@ -1,5 +1,5 @@
-menuListArray = ["Marguerita",Calabresa,Queijo,Vegano,Chocolate
-]; //Adicione mais nomes de pizza
+menuListArray = ["Marguerita", "Calabresa", "Queijo", "Vegano", "Chocolate"];
+ //Adicione mais nomes de pizza
 
 function getmenu() {
     var htmldata = "";
@@ -14,6 +14,6 @@ function add_suggestion() {
     //Dê um nome de id apropriado, como addItem
     var item = document.getElementById("addItem").value;
     //Use a função push() para colocar o item no menuListArray
-    menuListArraypush()   (item);
+    menuListArray.push(item);
 }
 
